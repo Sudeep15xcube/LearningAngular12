@@ -1,0 +1,42 @@
+
+
+
+<div class="container">
+  <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Search</label>
+    <input type="text"  class="form-control" >
+  </div>
+</form>
+	<h1>JobData Table</h1>
+<div class="table-responsive">
+<table class="table table-success table-striped table-hover">
+  <thead>
+  <tr>
+    <th>id</th>
+    <th scope="col">name</th>
+    <th scope="col">email</th>
+    <th scope="col">phone</th>
+    <th scope="col">username</th>
+    <th scope="col">Website</th>
+    <th scope="col">company</th>
+    <th scope="col">Address</th>
+   
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let jobdata of jobb">
+    <td>{{jobdata.id}}</td>
+    <td>{{jobdata.name}}</td>
+    <td>{{jobdata.email}}</td>
+    <td>{{jobdata.phone}}</td>
+    <td>{{jobdata.username}}</td>
+    <td>{{jobdata.website}}</td>
+    <td>{{jobdata.company.name}},{{jobdata.company.bs}}</td>
+    <td>{{jobdata.address.street}},{{jobdata.address.city}}-{{jobdata.address.zipcode}}</td>
+  </tr>
+  </tbody>
+  
+</table>
+</div>
+</div>

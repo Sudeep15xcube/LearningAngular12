@@ -1,0 +1,17 @@
+.pagg .btn-danger{
+color: green;
+background-color: yellow;
+border-color: yellow;
+}
+.page-nav .pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    background: rebeccapurple;
+}
+
+.pagg2.progress-bar {
+    
+    background-color: red;
+    
+}

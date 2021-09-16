@@ -1,0 +1,11 @@
+*body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	color: green;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: 1;
+}
